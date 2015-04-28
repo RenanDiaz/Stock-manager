@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32BF5E171AEF0520004C0E23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E161AEF0520004C0E23 /* main.m */; };
+		32BF5E1A1AEF0520004C0E23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E191AEF0520004C0E23 /* AppDelegate.m */; };
+		32BF5E1D1AEF0520004C0E23 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E1C1AEF0520004C0E23 /* FirstViewController.m */; };
+		32BF5E201AEF0520004C0E23 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E1F1AEF0520004C0E23 /* SecondViewController.m */; };
+		32BF5E231AEF0520004C0E23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BF5E211AEF0520004C0E23 /* Main.storyboard */; };
+		32BF5E251AEF0520004C0E23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BF5E241AEF0520004C0E23 /* Images.xcassets */; };
+		32BF5E281AEF0520004C0E23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32BF5E261AEF0520004C0E23 /* LaunchScreen.xib */; };
+		32BF5E341AEF0520004C0E23 /* Stock_managerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E331AEF0520004C0E23 /* Stock_managerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32BF5E2E1AEF0520004C0E23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32BF5E091AEF0520004C0E23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32BF5E101AEF0520004C0E23;
+			remoteInfo = "Stock manager";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32BF5E111AEF0520004C0E23 /* Stock manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stock manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BF5E151AEF0520004C0E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BF5E161AEF0520004C0E23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32BF5E181AEF0520004C0E23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32BF5E191AEF0520004C0E23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32BF5E1B1AEF0520004C0E23 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		32BF5E1C1AEF0520004C0E23 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		32BF5E1E1AEF0520004C0E23 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		32BF5E1F1AEF0520004C0E23 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		32BF5E221AEF0520004C0E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32BF5E241AEF0520004C0E23 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32BF5E271AEF0520004C0E23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		32BF5E2D1AEF0520004C0E23 /* Stock managerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Stock managerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32BF5E321AEF0520004C0E23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BF5E331AEF0520004C0E23 /* Stock_managerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stock_managerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32BF5E0E1AEF0520004C0E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF5E2A1AEF0520004C0E23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32BF5E081AEF0520004C0E23 = {
+			isa = PBXGroup;
+			children = (
+				32BF5E131AEF0520004C0E23 /* Stock manager */,
+				32BF5E301AEF0520004C0E23 /* Stock managerTests */,
+				32BF5E121AEF0520004C0E23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32BF5E121AEF0520004C0E23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32BF5E111AEF0520004C0E23 /* Stock manager.app */,
+				32BF5E2D1AEF0520004C0E23 /* Stock managerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32BF5E131AEF0520004C0E23 /* Stock manager */ = {
+			isa = PBXGroup;
+			children = (
+				32BF5E181AEF0520004C0E23 /* AppDelegate.h */,
+				32BF5E191AEF0520004C0E23 /* AppDelegate.m */,
+				32BF5E1B1AEF0520004C0E23 /* FirstViewController.h */,
+				32BF5E1C1AEF0520004C0E23 /* FirstViewController.m */,
+				32BF5E1E1AEF0520004C0E23 /* SecondViewController.h */,
+				32BF5E1F1AEF0520004C0E23 /* SecondViewController.m */,
+				32BF5E211AEF0520004C0E23 /* Main.storyboard */,
+				32BF5E241AEF0520004C0E23 /* Images.xcassets */,
+				32BF5E261AEF0520004C0E23 /* LaunchScreen.xib */,
+				32BF5E141AEF0520004C0E23 /* Supporting Files */,
+			);
+			path = "Stock manager";
+			sourceTree = "<group>";
+		};
+		32BF5E141AEF0520004C0E23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32BF5E151AEF0520004C0E23 /* Info.plist */,
+				32BF5E161AEF0520004C0E23 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32BF5E301AEF0520004C0E23 /* Stock managerTests */ = {
+			isa = PBXGroup;
+			children = (
+				32BF5E331AEF0520004C0E23 /* Stock_managerTests.m */,
+				32BF5E311AEF0520004C0E23 /* Supporting Files */,
+			);
+			path = "Stock managerTests";
+			sourceTree = "<group>";
+		};
+		32BF5E311AEF0520004C0E23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32BF5E321AEF0520004C0E23 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32BF5E101AEF0520004C0E23 /* Stock manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BF5E371AEF0520004C0E23 /* Build configuration list for PBXNativeTarget "Stock manager" */;
+			buildPhases = (
+				32BF5E0D1AEF0520004C0E23 /* Sources */,
+				32BF5E0E1AEF0520004C0E23 /* Frameworks */,
+				32BF5E0F1AEF0520004C0E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Stock manager";
+			productName = "Stock manager";
+			productReference = 32BF5E111AEF0520004C0E23 /* Stock manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32BF5E2C1AEF0520004C0E23 /* Stock managerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32BF5E3A1AEF0520004C0E23 /* Build configuration list for PBXNativeTarget "Stock managerTests" */;
+			buildPhases = (
+				32BF5E291AEF0520004C0E23 /* Sources */,
+				32BF5E2A1AEF0520004C0E23 /* Frameworks */,
+				32BF5E2B1AEF0520004C0E23 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32BF5E2F1AEF0520004C0E23 /* PBXTargetDependency */,
+			);
+			name = "Stock managerTests";
+			productName = "Stock managerTests";
+			productReference = 32BF5E2D1AEF0520004C0E23 /* Stock managerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32BF5E091AEF0520004C0E23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Renán Díaz Reyes";
+				TargetAttributes = {
+					32BF5E101AEF0520004C0E23 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					32BF5E2C1AEF0520004C0E23 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 32BF5E101AEF0520004C0E23;
+					};
+				};
+			};
+			buildConfigurationList = 32BF5E0C1AEF0520004C0E23 /* Build configuration list for PBXProject "Stock manager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32BF5E081AEF0520004C0E23;
+			productRefGroup = 32BF5E121AEF0520004C0E23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32BF5E101AEF0520004C0E23 /* Stock manager */,
+				32BF5E2C1AEF0520004C0E23 /* Stock managerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32BF5E0F1AEF0520004C0E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF5E231AEF0520004C0E23 /* Main.storyboard in Resources */,
+				32BF5E281AEF0520004C0E23 /* LaunchScreen.xib in Resources */,
+				32BF5E251AEF0520004C0E23 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF5E2B1AEF0520004C0E23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32BF5E0D1AEF0520004C0E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF5E201AEF0520004C0E23 /* SecondViewController.m in Sources */,
+				32BF5E1A1AEF0520004C0E23 /* AppDelegate.m in Sources */,
+				32BF5E1D1AEF0520004C0E23 /* FirstViewController.m in Sources */,
+				32BF5E171AEF0520004C0E23 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32BF5E291AEF0520004C0E23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32BF5E341AEF0520004C0E23 /* Stock_managerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32BF5E2F1AEF0520004C0E23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32BF5E101AEF0520004C0E23 /* Stock manager */;
+			targetProxy = 32BF5E2E1AEF0520004C0E23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32BF5E211AEF0520004C0E23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BF5E221AEF0520004C0E23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32BF5E261AEF0520004C0E23 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32BF5E271AEF0520004C0E23 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32BF5E351AEF0520004C0E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32BF5E361AEF0520004C0E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32BF5E381AEF0520004C0E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stock manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32BF5E391AEF0520004C0E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Stock manager/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32BF5E3B1AEF0520004C0E23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stock managerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stock manager.app/Stock manager";
+			};
+			name = Debug;
+		};
+		32BF5E3C1AEF0520004C0E23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Stock managerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Stock manager.app/Stock manager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32BF5E0C1AEF0520004C0E23 /* Build configuration list for PBXProject "Stock manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BF5E351AEF0520004C0E23 /* Debug */,
+				32BF5E361AEF0520004C0E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32BF5E371AEF0520004C0E23 /* Build configuration list for PBXNativeTarget "Stock manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BF5E381AEF0520004C0E23 /* Debug */,
+				32BF5E391AEF0520004C0E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32BF5E3A1AEF0520004C0E23 /* Build configuration list for PBXNativeTarget "Stock managerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32BF5E3B1AEF0520004C0E23 /* Debug */,
+				32BF5E3C1AEF0520004C0E23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32BF5E091AEF0520004C0E23 /* Project object */;
+}
