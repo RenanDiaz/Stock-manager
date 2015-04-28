@@ -17,6 +17,7 @@
 		32BF5E341AEF0520004C0E23 /* Stock_managerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E331AEF0520004C0E23 /* Stock_managerTests.m */; };
 		32BF5E3F1AEF0A0C004C0E23 /* ProductsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E3E1AEF0A0C004C0E23 /* ProductsTableViewController.m */; };
 		32BF5E421AEF0A30004C0E23 /* ProductsDetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E411AEF0A30004C0E23 /* ProductsDetailsTableViewController.m */; };
+		32BF5E451AEF0C96004C0E23 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E441AEF0C96004C0E23 /* Product.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		32BF5E3E1AEF0A0C004C0E23 /* ProductsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsTableViewController.m; sourceTree = "<group>"; };
 		32BF5E401AEF0A30004C0E23 /* ProductsDetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsDetailsTableViewController.h; sourceTree = "<group>"; };
 		32BF5E411AEF0A30004C0E23 /* ProductsDetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsDetailsTableViewController.m; sourceTree = "<group>"; };
+		32BF5E431AEF0C96004C0E23 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		32BF5E441AEF0C96004C0E23 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				32BF5E1E1AEF0520004C0E23 /* SecondViewController.h */,
 				32BF5E1F1AEF0520004C0E23 /* SecondViewController.m */,
 				32BF5E211AEF0520004C0E23 /* Main.storyboard */,
+				32BF5E431AEF0C96004C0E23 /* Product.h */,
+				32BF5E441AEF0C96004C0E23 /* Product.m */,
 				32BF5E3D1AEF0A0C004C0E23 /* ProductsTableViewController.h */,
 				32BF5E3E1AEF0A0C004C0E23 /* ProductsTableViewController.m */,
 				32BF5E401AEF0A30004C0E23 /* ProductsDetailsTableViewController.h */,
@@ -234,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BF5E451AEF0C96004C0E23 /* Product.m in Sources */,
 				32BF5E3F1AEF0A0C004C0E23 /* ProductsTableViewController.m in Sources */,
 				32BF5E201AEF0520004C0E23 /* SecondViewController.m in Sources */,
 				32BF5E421AEF0A30004C0E23 /* ProductsDetailsTableViewController.m in Sources */,

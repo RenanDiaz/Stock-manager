@@ -14,6 +14,10 @@
 
 @implementation ProductsTableViewController
 
+- (IBAction)unwindToProducts:(UIStoryboardSegue *)segue {
+    
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     

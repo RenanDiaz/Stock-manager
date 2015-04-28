@@ -132,7 +132,7 @@
             </objects>
             <point key="canvasLocation" x="2294" y="0.0"/>
         </scene>
-        <!--Product's Detail-->
+        <!--Product's detail-->
         <scene sceneID="zb7-9R-rR1">
             <objects>
                 <tableViewController id="sWX-5i-AmG" customClass="ProductsDetailsTableViewController" sceneMemberID="viewController">
@@ -167,12 +167,21 @@
                             <outlet property="delegate" destination="sWX-5i-AmG" id="2J4-Cf-fAH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Product's Detail" id="JjX-qC-Tev">
-                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="0gm-ce-B2I"/>
-                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="hCN-w6-Zxf"/>
+                    <navigationItem key="navigationItem" title="Product's detail" id="JjX-qC-Tev">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="0gm-ce-B2I">
+                            <connections>
+                                <segue destination="UsN-7G-8Pc" kind="unwind" unwindAction="unwindToProducts:" id="65B-4M-N6D"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="hCN-w6-Zxf">
+                            <connections>
+                                <segue destination="UsN-7G-8Pc" kind="unwind" unwindAction="unwindToProducts:" id="MnT-Yy-Z6i"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="C5h-yi-utr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="UsN-7G-8Pc" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3884" y="0.0"/>
         </scene>

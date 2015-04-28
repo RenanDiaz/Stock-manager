@@ -10,4 +10,6 @@
 
 @interface ProductsTableViewController : UITableViewController
 
+- (IBAction)unwindToProducts:(UIStoryboardSegue *)segue;
+
 @end
