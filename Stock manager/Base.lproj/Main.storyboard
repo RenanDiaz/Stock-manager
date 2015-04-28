@@ -112,6 +112,9 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="yu2-IS-ecc" kind="presentation" id="m95-ly-QQ6"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -248,4 +251,7 @@
         <image name="products" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="m95-ly-QQ6"/>
+    </inferredMetricsTieBreakers>
 </document>

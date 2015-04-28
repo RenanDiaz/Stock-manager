@@ -11,7 +11,7 @@
 @interface Product : NSObject
 
 @property NSString *name;
-@property NSNumber *code;
+@property NSString *code;
 @property NSDecimalNumber *cost;
 @property NSDecimalNumber *price;
 @property BOOL activity;
