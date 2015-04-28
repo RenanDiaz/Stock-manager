@@ -87,7 +87,7 @@
         <!--Products-->
         <scene sceneID="dVa-xE-iC1">
             <objects>
-                <tableViewController id="Otp-R9-0N2" sceneMemberID="viewController">
+                <tableViewController id="Otp-R9-0N2" customClass="ProductsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="1jj-6w-ez7">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -135,7 +135,7 @@
         <!--Product's Detail-->
         <scene sceneID="zb7-9R-rR1">
             <objects>
-                <tableViewController id="sWX-5i-AmG" sceneMemberID="viewController">
+                <tableViewController id="sWX-5i-AmG" customClass="ProductsDetailsTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="qJ4-WO-1Sa">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
