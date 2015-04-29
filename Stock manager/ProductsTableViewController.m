@@ -8,10 +8,12 @@
 
 #import "ProductsTableViewController.h"
 #import "Product.h"
+#import "EditProductTableViewController.h"
 
 @interface ProductsTableViewController ()
 
 @property NSMutableArray *products;
+@property Product *tappedProduct;
 
 @end
 
@@ -99,20 +101,20 @@
 }
 */
 
-/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([[segue identifier] isEqualToString:@"EditProductSegue"]) {
+        EditProductTableViewController *controller = (EditProductTableViewController *)[segue destinationViewController];
+        [controller setProduct:self.tappedProduct];
+    }
 }
- */
 
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    Product *tappedItem = [self.products objectAtIndex:indexPath.row];
+    self.tappedProduct = [self.products objectAtIndex:indexPath.row];
 }
 
 @end

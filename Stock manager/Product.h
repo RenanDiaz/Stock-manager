@@ -7,14 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ProductsDetails.h"
 
 @interface Product : NSObject
 
-@property NSString *name;
-@property NSString *code;
-@property NSDecimalNumber *cost;
-@property NSDecimalNumber *price;
-@property BOOL activity;
-@property NSMutableArray *additionalAttributes;
+@property ProductsDetails *productsDetails;
 
 @end

@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>A10574EE-7E21-4C64-96A0-645672A1F8EC</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>Stock manager</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D3C4A0500ED6623CBB153E1047B6A8DF30013E9B</key>
 		<string>https://github.com/RenanDiaz/Stock-manager.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Stock manager.xcodeproj/project.xcworkspace</string>
+	<string>Stock manager.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D3C4A0500ED6623CBB153E1047B6A8DF30013E9B</key>

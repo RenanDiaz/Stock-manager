@@ -10,18 +10,23 @@
 
 @interface ProductsDetailsTableViewController ()
 
+@property NSMutableArray *productsDetails;
+
 @end
 
 @implementation ProductsDetailsTableViewController
 
+- (void)loadInitialData {
+    [self.productsDetails addObject:@"Name"];
+    [self.productsDetails addObject:@"Code"];
+    [self.productsDetails addObject:@"Cost"];
+    [self.productsDetails addObject:@"Price"];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.productsDetails = [[NSMutableArray alloc] init];
+    [self loadInitialData];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,26 +37,19 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Potentially incomplete method implementation.
-    // Return the number of sections.
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete method implementation.
-    // Return the number of rows in the section.
-    return 0;
+    return [self.productsDetails count];
 }
 
-/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ProductsDetailsPrototypeCell" forIndexPath:indexPath];
+    NSString *detail = [self.productsDetails objectAtIndex:indexPath.row];
+    cell.textLabel.text = detail;
     return cell;
 }
-*/
 
 /*
 // Override to support conditional editing of the table view.
@@ -92,8 +90,7 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    
 }
 */
 

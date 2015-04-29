@@ -10,12 +10,4 @@
 
 @implementation Product
 
-- (NSInteger)numberOfBasicDetails {
-    return 4;
-}
-
-- (NSInteger)numberOfAttributes {
-    return [self numberOfBasicDetails] + [self.additionalAttributes count];
-}
-
 @end
