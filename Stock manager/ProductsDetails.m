@@ -10,12 +10,26 @@
 
 @implementation ProductsDetails
 
-- (NSInteger)numberOfBasicDetails {
+- (id)init
+{
+    self = [super init];
+    if (self)
+    {
+        self.name = [[ProductsDetail alloc] initWithName:@"Name" andValue:@""];
+        self.code = [[ProductsDetail alloc] initWithName:@"Code" andValue:@""];
+        self.cost = [[ProductsDetail alloc] initWithName:@"Cost" andValue:[[NSDecimalNumber alloc] init]];
+        self.price = [[ProductsDetail alloc] initWithName:@"Price" andValue:[[NSDecimalNumber alloc] init]];
+        self.isInactive = [[ProductsDetail alloc] initHiddenWithName:@"Is inactive" andValue:@NO];
+    }
+    return self;
+}
+
+- (int)numberOfBasicDetails {
     return 4;
 }
 
-- (NSInteger)numberOfAttributes {
-    return [self numberOfBasicDetails] + [self.additionalAttributes count];
+- (NSNumber *)numberOfAttributes {
+    return [NSNumber numberWithInt:*([self numberOfBasicDetails] + [self additionalAttributes])];
 }
 
 @end

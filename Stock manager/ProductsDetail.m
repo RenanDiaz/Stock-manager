@@ -10,4 +10,24 @@
 
 @implementation ProductsDetail
 
+- (id)initWithName:(NSString *)name andValue:(NSObject *)value {
+    self = [super init];
+    if (self) {
+        self.name = name;
+        self.value = value;
+        self.isVisible = YES;
+    }
+    return self;
+}
+
+- (id)initHiddenWithName:(NSString *)name andValue:(NSObject *)value {
+    self = [super init];
+    if (self) {
+        self.name = name;
+        self.value = value;
+        self.isVisible = NO;
+    }
+    return self;
+}
+
 @end

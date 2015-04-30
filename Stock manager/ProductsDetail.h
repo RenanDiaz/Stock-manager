@@ -10,4 +10,11 @@
 
 @interface ProductsDetail : NSObject
 
+@property NSString *name;
+@property NSObject *value;
+@property BOOL isVisible;
+
+- (id)initWithName:(NSString *)name andValue:(NSObject *)value;
+- (id)initHiddenWithName:(NSString *)name andValue:(NSObject *)value;
+
 @end

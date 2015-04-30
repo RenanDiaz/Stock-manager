@@ -13,4 +13,15 @@
 
 @property ProductsDetails *productsDetails;
 
+- (void)setName:(NSString *)name;
+- (NSString *)getName;
+- (void)setCode:(NSString *)code;
+- (NSString *)getCode;
+- (void)setCost:(NSDecimalNumber *)cost;
+- (NSDecimalNumber *)getcost;
+- (void)setPrice:(NSDecimalNumber *)price;
+- (NSDecimalNumber *)getprice;
+- (void)setIsInactive:(NSNumber *)isInactive;
+- (NSNumber *)getIsInactive;
+
 @end

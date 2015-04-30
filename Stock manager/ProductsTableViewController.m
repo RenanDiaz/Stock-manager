@@ -21,16 +21,16 @@
 
 - (void)loadInitialData {
     Product *product1 = [[Product alloc] init];
-    product1.name = @"Coca Cola";
-    product1.code = @"0001";
+    [product1 setName:@"Coca Cola"];
+    [product1 setCode:@"0001"];
     [self.products addObject:product1];
     Product *product2 = [[Product alloc] init];
-    product2.name = @"Kist Fresa";
-    product2.code = @"1254";
+    [product2 setName:@"Kist Fresa"];
+    [product2 setCode:@"1254"];
     [self.products addObject:product2];
     Product *product3 = [[Product alloc] init];
-    product3.name = @"Fresca";
-    product3.code = @"1234";
+    [product3 setName:@"Fresca"];
+    [product3 setCode:@"1234"];
     [self.products addObject:product3];
 }
 
@@ -62,8 +62,8 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ProductsPrototypeCell" forIndexPath:indexPath];
     Product *product = [self.products objectAtIndex:indexPath.row];
-    cell.textLabel.text = product.name;
-    cell.detailTextLabel.text = product.code;
+    cell.textLabel.text = [product getName];
+    cell.detailTextLabel.text = [product getCode];
     return cell;
 }
 
