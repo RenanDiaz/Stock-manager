@@ -13,9 +13,7 @@
 - (id)initWithName:(NSString *)name andValue:(NSObject *)value {
     self = [super init];
     if (self) {
-        self.name = name;
-        self.value = value;
-        self.isVisible = YES;
+        [self setName:name value:value andVisibility:YES];
     }
     return self;
 }
@@ -23,11 +21,15 @@
 - (id)initHiddenWithName:(NSString *)name andValue:(NSObject *)value {
     self = [super init];
     if (self) {
-        self.name = name;
-        self.value = value;
-        self.isVisible = NO;
+        [self setName:name value:value andVisibility:NO];
     }
     return self;
+}
+
+- (void)setName:(NSString *)name value:(NSObject *)value andVisibility:(BOOL)visibility {
+    self.name = name;
+    self.value = value;
+    self.isVisible = visibility;
 }
 
 @end
