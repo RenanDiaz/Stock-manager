@@ -13,25 +13,20 @@
 @interface ProductsTableViewController ()
 
 @property NSMutableArray *products;
-@property Product *tappedProduct;
 
 @end
 
 @implementation ProductsTableViewController
 
+@synthesize products;
+
 - (void)loadInitialData {
-    Product *product1 = [[Product alloc] init];
-    [product1 setName:@"Coca Cola"];
-    [product1 setCode:@"0001"];
-    [self.products addObject:product1];
-    Product *product2 = [[Product alloc] init];
-    [product2 setName:@"Kist Fresa"];
-    [product2 setCode:@"1254"];
-    [self.products addObject:product2];
-    Product *product3 = [[Product alloc] init];
-    [product3 setName:@"Fresca"];
-    [product3 setCode:@"1234"];
-    [self.products addObject:product3];
+    Product *product1 = [[Product alloc] initWithName:@"Coca Cola" code:@"0001" cost:[NSDecimalNumber decimalNumberWithString:@"5"] price:[NSDecimalNumber decimalNumberWithString:@"6.0"]];
+    [products addObject:product1];
+    Product *product2 = [[Product alloc] initWithName:@"Kist Fresa" code:@"1254" cost:[NSDecimalNumber decimalNumberWithString:@"5"] price:[NSDecimalNumber decimalNumberWithString:@"6.0"]];
+    [products addObject:product2];
+    Product *product3 = [[Product alloc] initWithName:@"Fresca" code:@"1234" cost:[NSDecimalNumber decimalNumberWithString:@"5"] price:[NSDecimalNumber decimalNumberWithString:@"6.0"]];
+    [products addObject:product3];
 }
 
 - (IBAction)unwindToProducts:(UIStoryboardSegue *)segue {
@@ -40,7 +35,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.products = [[NSMutableArray alloc] init];
+    products = [[NSMutableArray alloc] init];
     [self loadInitialData];
 }
 
@@ -56,14 +51,14 @@
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return [self.products count];
+    return [products count];
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ProductsPrototypeCell" forIndexPath:indexPath];
-    Product *product = [self.products objectAtIndex:indexPath.row];
-    cell.textLabel.text = [product getName];
-    cell.detailTextLabel.text = [product getCode];
+    Product *product = [products objectAtIndex:indexPath.row];
+    cell.textLabel.text = (NSString *)[[product.productsDetails member:@"Name"] detailsValue];
+    cell.detailTextLabel.text = (NSString *)[[product.productsDetails member:@"Code"] detailsValue];
     return cell;
 }
 
@@ -105,16 +100,20 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if ([[segue identifier] isEqualToString:@"EditProductSegue"]) {
-        EditProductTableViewController *controller = (EditProductTableViewController *)[segue destinationViewController];
-        [controller setProduct:self.tappedProduct];
+    if ([segue.identifier isEqualToString:@"EditProductSegue"]) {
+        EditProductTableViewController *controller = [segue destinationViewController];
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        Product *selectedProduct = [products objectAtIndex:indexPath.row];
+        controller.product = selectedProduct;
     }
 }
 
+/*
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    self.tappedProduct = [self.products objectAtIndex:indexPath.row];
+    
 }
+*/
 
 @end
