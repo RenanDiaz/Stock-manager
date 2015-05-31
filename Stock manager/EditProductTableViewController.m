@@ -20,7 +20,7 @@
 
 - (void)loadProductsData {
     for (ProductsDetail *productsDetail in product.productsDetails) {
-        NSLog(productsDetail.name);
+        NSLog(@"%@", productsDetail.name);
     }
 }
 

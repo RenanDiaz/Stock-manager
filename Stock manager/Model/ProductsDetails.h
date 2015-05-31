@@ -12,5 +12,5 @@
 @interface ProductsDetails : NSMutableDictionary
 
 - (NSNumber *)numberOfAttributes;
-
+- (ProductsDetail *)member:(NSString *)membersName;
 @end

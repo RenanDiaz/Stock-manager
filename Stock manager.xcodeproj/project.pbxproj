@@ -16,11 +16,11 @@
 		32BF5E281AEF0520004C0E23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32BF5E261AEF0520004C0E23 /* LaunchScreen.xib */; };
 		32BF5E341AEF0520004C0E23 /* Stock_managerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E331AEF0520004C0E23 /* Stock_managerTests.m */; };
 		32BF5E3F1AEF0A0C004C0E23 /* ProductsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E3E1AEF0A0C004C0E23 /* ProductsTableViewController.m */; };
-		32BF5E451AEF0C96004C0E23 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 32BF5E441AEF0C96004C0E23 /* Product.m */; };
-		32FEC4561AF10CD500FD698F /* ProductsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC4551AF10CD500FD698F /* ProductsDetail.m */; };
+		32E533A51B1B89B2002E4199 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E533A01B1B89B2002E4199 /* Product.m */; };
+		32E533A61B1B89B2002E4199 /* ProductsDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E533A21B1B89B2002E4199 /* ProductsDetail.m */; };
+		32E533A71B1B89B2002E4199 /* ProductsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E533A41B1B89B2002E4199 /* ProductsDetails.m */; };
 		32FEC4591AF409DC00FD698F /* NewProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC4581AF409DC00FD698F /* NewProductTableViewController.m */; };
 		32FEC45C1AF40A0200FD698F /* EditProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC45B1AF40A0200FD698F /* EditProductTableViewController.m */; };
-		32FEC4621AF4547600FD698F /* ProductsDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FEC4611AF4547600FD698F /* ProductsDetails.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,16 +51,16 @@
 		32BF5E331AEF0520004C0E23 /* Stock_managerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stock_managerTests.m; sourceTree = "<group>"; };
 		32BF5E3D1AEF0A0C004C0E23 /* ProductsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsTableViewController.h; sourceTree = "<group>"; };
 		32BF5E3E1AEF0A0C004C0E23 /* ProductsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsTableViewController.m; sourceTree = "<group>"; };
-		32BF5E431AEF0C96004C0E23 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
-		32BF5E441AEF0C96004C0E23 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
-		32FEC4541AF10CD500FD698F /* ProductsDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsDetail.h; sourceTree = "<group>"; };
-		32FEC4551AF10CD500FD698F /* ProductsDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsDetail.m; sourceTree = "<group>"; };
+		32E5339F1B1B89B2002E4199 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		32E533A01B1B89B2002E4199 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		32E533A11B1B89B2002E4199 /* ProductsDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsDetail.h; sourceTree = "<group>"; };
+		32E533A21B1B89B2002E4199 /* ProductsDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsDetail.m; sourceTree = "<group>"; };
+		32E533A31B1B89B2002E4199 /* ProductsDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsDetails.h; sourceTree = "<group>"; };
+		32E533A41B1B89B2002E4199 /* ProductsDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsDetails.m; sourceTree = "<group>"; };
 		32FEC4571AF409DC00FD698F /* NewProductTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewProductTableViewController.h; sourceTree = "<group>"; };
 		32FEC4581AF409DC00FD698F /* NewProductTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewProductTableViewController.m; sourceTree = "<group>"; };
 		32FEC45A1AF40A0200FD698F /* EditProductTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditProductTableViewController.h; sourceTree = "<group>"; };
 		32FEC45B1AF40A0200FD698F /* EditProductTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProductTableViewController.m; sourceTree = "<group>"; };
-		32FEC4601AF4547600FD698F /* ProductsDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductsDetails.h; sourceTree = "<group>"; };
-		32FEC4611AF4547600FD698F /* ProductsDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductsDetails.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,23 +102,16 @@
 		32BF5E131AEF0520004C0E23 /* Stock manager */ = {
 			isa = PBXGroup;
 			children = (
-				32BF5E181AEF0520004C0E23 /* AppDelegate.h */,
-				32BF5E191AEF0520004C0E23 /* AppDelegate.m */,
 				32BF5E1B1AEF0520004C0E23 /* FirstViewController.h */,
 				32BF5E1C1AEF0520004C0E23 /* FirstViewController.m */,
 				32BF5E1E1AEF0520004C0E23 /* SecondViewController.h */,
 				32BF5E1F1AEF0520004C0E23 /* SecondViewController.m */,
 				32BF5E211AEF0520004C0E23 /* Main.storyboard */,
+				32E5339E1B1B89B2002E4199 /* Model */,
 				32FEC45A1AF40A0200FD698F /* EditProductTableViewController.h */,
 				32FEC45B1AF40A0200FD698F /* EditProductTableViewController.m */,
 				32FEC4571AF409DC00FD698F /* NewProductTableViewController.h */,
 				32FEC4581AF409DC00FD698F /* NewProductTableViewController.m */,
-				32FEC4541AF10CD500FD698F /* ProductsDetail.h */,
-				32FEC4551AF10CD500FD698F /* ProductsDetail.m */,
-				32FEC4601AF4547600FD698F /* ProductsDetails.h */,
-				32FEC4611AF4547600FD698F /* ProductsDetails.m */,
-				32BF5E431AEF0C96004C0E23 /* Product.h */,
-				32BF5E441AEF0C96004C0E23 /* Product.m */,
 				32BF5E3D1AEF0A0C004C0E23 /* ProductsTableViewController.h */,
 				32BF5E3E1AEF0A0C004C0E23 /* ProductsTableViewController.m */,
 				32BF5E241AEF0520004C0E23 /* Images.xcassets */,
@@ -131,6 +124,8 @@
 		32BF5E141AEF0520004C0E23 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				32BF5E181AEF0520004C0E23 /* AppDelegate.h */,
+				32BF5E191AEF0520004C0E23 /* AppDelegate.m */,
 				32BF5E151AEF0520004C0E23 /* Info.plist */,
 				32BF5E161AEF0520004C0E23 /* main.m */,
 			);
@@ -152,6 +147,19 @@
 				32BF5E321AEF0520004C0E23 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32E5339E1B1B89B2002E4199 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				32E5339F1B1B89B2002E4199 /* Product.h */,
+				32E533A01B1B89B2002E4199 /* Product.m */,
+				32E533A11B1B89B2002E4199 /* ProductsDetail.h */,
+				32E533A21B1B89B2002E4199 /* ProductsDetail.m */,
+				32E533A31B1B89B2002E4199 /* ProductsDetails.h */,
+				32E533A41B1B89B2002E4199 /* ProductsDetails.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,14 +262,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FEC4561AF10CD500FD698F /* ProductsDetail.m in Sources */,
-				32BF5E451AEF0C96004C0E23 /* Product.m in Sources */,
 				32FEC45C1AF40A0200FD698F /* EditProductTableViewController.m in Sources */,
 				32BF5E3F1AEF0A0C004C0E23 /* ProductsTableViewController.m in Sources */,
 				32BF5E201AEF0520004C0E23 /* SecondViewController.m in Sources */,
 				32BF5E1A1AEF0520004C0E23 /* AppDelegate.m in Sources */,
-				32FEC4621AF4547600FD698F /* ProductsDetails.m in Sources */,
 				32FEC4591AF409DC00FD698F /* NewProductTableViewController.m in Sources */,
+				32E533A51B1B89B2002E4199 /* Product.m in Sources */,
+				32E533A71B1B89B2002E4199 /* ProductsDetails.m in Sources */,
+				32E533A61B1B89B2002E4199 /* ProductsDetail.m in Sources */,
 				32BF5E1D1AEF0520004C0E23 /* FirstViewController.m in Sources */,
 				32BF5E171AEF0520004C0E23 /* main.m in Sources */,
 			);
