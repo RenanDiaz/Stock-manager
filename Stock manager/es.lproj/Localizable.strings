@@ -1,0 +1,18 @@
+/* Product's state */
+"Active" = "Activo";
+
+/* Product's code */
+"Code" = "Código";
+
+/* Product's cost */
+"Cost" = "Costo";
+
+/* Product's name */
+"Name" = "Nombre";
+
+/* Product's price */
+"Price" = "Precio";
+
+/* Product's returnability */
+"Returnable" = "Retornable";
+

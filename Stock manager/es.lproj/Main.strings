@@ -1,0 +1,42 @@
+/* Class = "UILabel"; text = "Detail"; ObjectID = "1VD-CC-DB3"; */
+"1VD-CC-DB3.text" = "Detalle";
+
+/* Class = "UILabel"; text = "Loaded by FirstViewController"; ObjectID = "A5M-7J-77L"; */
+"A5M-7J-77L.text" = "Cargado por FirstViewController";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "AHk-SF-y96"; */
+"AHk-SF-y96.text" = "Título";
+
+/* Class = "UITabBarItem"; title = "Products"; ObjectID = "Hn4-eU-DPY"; */
+"Hn4-eU-DPY.title" = "Productos";
+
+/* Class = "UINavigationItem"; title = "Edit product"; ObjectID = "JjX-qC-Tev"; */
+"JjX-qC-Tev.title" = "Editar producto";
+
+/* Class = "UILabel"; text = "First View"; ObjectID = "KQZ-1w-vlD"; */
+"KQZ-1w-vlD.text" = "Primera Vista";
+
+/* Class = "UILabel"; text = "Loaded by SecondViewController"; ObjectID = "NDk-cv-Gan"; */
+"NDk-cv-Gan.text" = "Cargado por SecondViewController";
+
+/* Class = "UINavigationItem"; title = "Products"; ObjectID = "Ut1-w6-qHk"; */
+"Ut1-w6-qHk.title" = "Productos";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "WAO-qs-h3Y"; */
+"WAO-qs-h3Y.text" = "Título";
+
+/* Class = "UITabBarItem"; title = "First"; ObjectID = "acW-dT-cKf"; */
+"acW-dT-cKf.title" = "Primero";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "c46-8P-nmj"; */
+"c46-8P-nmj.text" = "Título";
+
+/* Class = "UITabBarItem"; title = "Second"; ObjectID = "cPa-gy-q4n"; */
+"cPa-gy-q4n.title" = "Segundo";
+
+/* Class = "UINavigationItem"; title = "New product"; ObjectID = "g0t-Gr-Lbl"; */
+"g0t-Gr-Lbl.title" = "Nuevo producto";
+
+/* Class = "UILabel"; text = "Second View"; ObjectID = "zEq-FU-wV5"; */
+"zEq-FU-wV5.text" = "Segunda Vista";
+

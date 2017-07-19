@@ -7,12 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "ProductsDetails.h"
 
 @interface Product : NSObject
-
-@property ProductsDetails *productsDetails;
+@property (nonatomic, strong) NSString *name;
+@property (nonatomic, strong) NSString *code;
+@property (nonatomic, strong) NSDecimalNumber *cost;
+@property (nonatomic, strong) NSDecimalNumber *price;
+@property (nonatomic, getter=isVisible) BOOL visible;
+@property (nonatomic, getter=isReturnable) BOOL returnable;
 
 - (id)initWithName:(NSString *)name code:(NSString *)code cost:(NSDecimalNumber *)cost price:(NSDecimalNumber *)price;
-
+- (NSArray *)productsDetails;
++ (NSUInteger)numberOfAttributes;
++ (NSArray *)productDetailsLabels;
++ (NSArray *)productDetailsTypes;
 @end
